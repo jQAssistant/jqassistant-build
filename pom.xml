@@ -59,7 +59,7 @@
         <jqassistant.version>2.5.0</jqassistant.version>
 
         <!-- Maven Compiler Plugin Config -->
-        <org.projectlombok.version>1.18.34</org.projectlombok.version>
+        <org.projectlombok.version>1.18.36</org.projectlombok.version>
         <org.mapstruct.version>1.6.3</org.mapstruct.version>
         <maven.compiler.release>11</maven.compiler.release>
 
