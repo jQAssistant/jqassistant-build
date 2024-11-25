@@ -61,7 +61,6 @@
         <!-- Maven Compiler Plugin Config -->
         <org.projectlombok.version>1.18.36</org.projectlombok.version>
         <org.mapstruct.version>1.6.3</org.mapstruct.version>
-        <maven.compiler.release>11</maven.compiler.release>
 
         <!-- Maven Plugin versions -->
         <maven-surefire-plugin.version>3.5.2</maven-surefire-plugin.version>
