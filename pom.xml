@@ -177,6 +177,8 @@
                             <arg>-Amapstruct.unmappedTargetPolicy=ERROR</arg>
                             <arg>-Amapstruct.unmappedSourcePolicy=ERROR</arg>
                         </compilerArgs>
+                        <!-- include names of method parameters in bytecode for XO queries -->
+                        <parameters>true</parameters>
                     </configuration>
                 </plugin>
                 <plugin>
