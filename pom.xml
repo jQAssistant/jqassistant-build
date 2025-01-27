@@ -97,7 +97,7 @@
 
         <!-- Tests -->
         <it.jqassistant.store.uri>memory:${project.build.directory}/jqassistant/test-store</it.jqassistant.store.uri>
-        <maven-invoker-plugin.groovy.version>4.0.24</maven-invoker-plugin.groovy.version>
+        <maven-invoker-plugin.groovy.version>4.0.25</maven-invoker-plugin.groovy.version>
     </properties>
 
     <modules>
