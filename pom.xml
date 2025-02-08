@@ -55,7 +55,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jqassistant.version>2.6.0-M3</jqassistant.version>
+        <jqassistant.version>2.6.0-RC1</jqassistant.version>
 
         <!-- Maven Compiler Plugin Config -->
         <org.projectlombok.version>1.18.36</org.projectlombok.version>
@@ -533,6 +533,17 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-compiler-plugin</artifactId>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${maven-surefire-plugin.version}</version>
+                        <configuration>
+                            <systemPropertyVariables>
+                                <!-- default store to use for Integration tests -->
+                                <jqassistant.store.uri>${it.jqassistant.store.uri}</jqassistant.store.uri>
+                            </systemPropertyVariables>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
