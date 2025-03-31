@@ -8,7 +8,7 @@
     </parent>
 
     <artifactId>jqassistant</artifactId>
-    <name>jQAssistant rules</name>
+    <name>jQAssistant Rules</name>
 
     <build>
         <resources>

@@ -96,7 +96,7 @@
         <sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 
         <!-- Tests -->
-        <it.jqassistant.store.uri>memory:/${project.build.directory}/jqassistant/test-store</it.jqassistant.store.uri>
+        <it.jqassistant.store.uri>memory:target/jqassistant/test-store</it.jqassistant.store.uri>
         <maven-invoker-plugin.groovy.version>4.0.26</maven-invoker-plugin.groovy.version>
     </properties>
 
@@ -499,7 +499,7 @@
         <profile>
             <id>it-store-file</id>
             <properties>
-                <it.jqassistant.store.uri>file:${project.build.directory}/jqassistant/test-store</it.jqassistant.store.uri>
+                <it.jqassistant.store.uri>file:target/jqassistant/test-store</it.jqassistant.store.uri>
             </properties>
         </profile>
         <profile>
