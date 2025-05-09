@@ -55,7 +55,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jqassistant.version>2.6.0</jqassistant.version>
+        <jqassistant.version>2.7.0</jqassistant.version>
 
         <!-- Maven Compiler Plugin Config -->
         <org.projectlombok.version>1.18.38</org.projectlombok.version>
