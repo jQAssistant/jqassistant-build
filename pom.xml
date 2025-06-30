@@ -58,7 +58,7 @@
 
         <!-- Maven Plugin versions -->
         <maven-surefire-plugin.version>3.5.3</maven-surefire-plugin.version>
-        <maven-invoker-plugin.version>3.9.0</maven-invoker-plugin.version>
+        <maven-invoker-plugin.version>3.9.1</maven-invoker-plugin.version>
         <maven-gpg-plugin.version>3.2.7</maven-gpg-plugin.version>
         <central-publishing-maven-plugin.version>0.8.0</central-publishing-maven-plugin.version>
         <maven-release-plugin.version>3.1.1</maven-release-plugin.version>
