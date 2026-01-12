@@ -80,7 +80,7 @@
         <maven-resources-plugin.version>3.4.0</maven-resources-plugin.version>
         <maven-site-plugin.version>3.21.0</maven-site-plugin.version>
         <cyclonedx-maven-plugin.version>2.9.1</cyclonedx-maven-plugin.version>
-        <dependency-check-maven.version>12.1.9</dependency-check-maven.version>
+        <dependency-check-maven.version>12.2.0</dependency-check-maven.version>
 
         <!-- SonarQube -->
         <maven-sonar-plugin.version>5.5.0.6356</maven-sonar-plugin.version>
