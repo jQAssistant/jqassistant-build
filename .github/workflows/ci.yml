@@ -28,4 +28,4 @@ jobs:
       ossrh_signing_password: ${{ secrets.OSSRH_SIGNING_PASSWORD }}
       sonar_token: ${{ secrets.SONAR_TOKEN }}
       sonar_projectKey: ${{secrets.SONAR_PROJECTKEY}}
-      sonar_-host-url: "https://localhost:9000"
+      sonar_-host-url: https://localhost:9000
