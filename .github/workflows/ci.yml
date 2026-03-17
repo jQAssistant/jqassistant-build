@@ -4,12 +4,12 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - "1147-improve-sonarqube-integration-for-jqa"
     tags-ignore:
       - "*"
   pull_request:
     branches:
-      - main
+      - "1147-improve-sonarqube-integration-for-jqa"
   workflow_dispatch: {}
 
 concurrency:
@@ -27,3 +27,5 @@ jobs:
       ossrh_signing_key: ${{ secrets.OSSRH_SIGNING_KEY }}
       ossrh_signing_password: ${{ secrets.OSSRH_SIGNING_PASSWORD }}
       sonar_token: ${{ secrets.SONAR_TOKEN }}
+      sonar_projectKey: ${{secrets.SONAR_PROJECTKEY}}
+      sonar_-host-url: "https://localhost:9000"
