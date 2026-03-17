@@ -84,7 +84,7 @@
 
         <!-- SonarQube -->
         <maven-sonar-plugin.version>5.5.0.6356</maven-sonar-plugin.version>
-        <sonar.host.url>https://sonarqube:9000/</sonar.host.url>
+        <sonar.host.url>https://localhost:9000/</sonar.host.url>
         <sonar.organization>jqassistant</sonar.organization>
         <sonar.projectKey>${{ secrets.SONAR_POJECTKEY }}</sonar.projectKey>
         <sonar.token>${{ secrets.SONAR_TOKEN }}</sonar.token>
