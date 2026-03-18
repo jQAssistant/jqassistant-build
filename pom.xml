@@ -84,10 +84,10 @@
 
         <!-- SonarQube -->
         <maven-sonar-plugin.version>5.5.0.6356</maven-sonar-plugin.version>
-        <sonar.host.url>http://localhost:9000/</sonar.host.url>
+        <sonar.host.url>${{env.SONAR_HOST_URL}}}</sonar.host.url>
         <sonar.organization>jqassistant</sonar.organization>
-        <sonar.projectKey>${{ secrets.SONAR_POJECTKEY }}</sonar.projectKey>
-        <sonar.token>${{ secrets.SONAR_TOKEN }}</sonar.token>
+        <sonar.projectKey>${{env.SONAR_PROJECT_KEY}}</sonar.projectKey>
+        <sonar.token>${{ env.SONAR_TOKEN }}</sonar.token>
         <sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 
         <!-- Tests -->

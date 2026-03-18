@@ -18,7 +18,7 @@ concurrency:
 
 jobs:
   build:
-    uses: jqassistant-tooling/jqassistant-github-actions/.github/workflows/ci.yml@main
+    uses: jqassistant-tooling/jqassistant-github-actions/.github/workflows/ci.yml@integration-of-sonarqube-into-jQA
     with:
       publish_snapshots: true
     secrets:
@@ -26,6 +26,3 @@ jobs:
       ossrh_password: ${{ secrets.OSSRH_PASSWORD }}
       ossrh_signing_key: ${{ secrets.OSSRH_SIGNING_KEY }}
       ossrh_signing_password: ${{ secrets.OSSRH_SIGNING_PASSWORD }}
-      sonar_token: ${{ secrets.SONAR_TOKEN }}
-      sonar_projectKey: ${{secrets.SONAR_PROJECTKEY}}
-      sonar_host_url: "http://localhost:9000/"
