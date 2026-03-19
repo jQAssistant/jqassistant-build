@@ -23,7 +23,7 @@ jobs:
     with:
       publish_snapshots: true
       sonar_project_key: "jqassistant_jqassistant-build"
-      sonar_organization: "jqassistant"
+   #   sonar_organization: "jqassistant"
     secrets:
       ossrh_username: ${{ secrets.OSSRH_USERNAME }}
       ossrh_password: ${{ secrets.OSSRH_PASSWORD }}
