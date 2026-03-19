@@ -10,6 +10,7 @@ on:
   pull_request:
     branches:
       - "1147-improve-sonarqube-integration-for-jqa"
+      - "main"
   workflow_dispatch: {}
 
 concurrency:
