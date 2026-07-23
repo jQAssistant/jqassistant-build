@@ -20,7 +20,6 @@ jobs:
   build:
     uses: jqassistant-tooling/jqassistant-github-actions/.github/workflows/ci.yml@main
     with:
-      publish_snapshots: true
       sonar_project_key: "jqassistant_jqassistant-build"
       sonar_organization: "jqassistant"
     secrets:
