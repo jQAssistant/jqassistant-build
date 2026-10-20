@@ -88,7 +88,8 @@
 
         <!-- Tests -->
         <it.jqassistant.store.uri>memory:target/jqassistant/test-store</it.jqassistant.store.uri>
-        <maven-invoker-plugin.groovy.version>6.0.0</maven-invoker-plugin.groovy.version>
+        <!-- Groovy for the Maven Invoker Plugin,  -->
+        <maven-invoker-plugin.groovy.version>5.1.3</maven-invoker-plugin.groovy.version>
     </properties>
 
     <modules>
@@ -114,6 +115,22 @@
                 <filtering>false</filtering>
             </resource>
         </resources>
+        <testResources>
+            <testResource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <includes>
+                    <include>META-INF/jqassistant-plugin.xml</include>
+                </includes>
+                <filtering>true</filtering>
+            </testResource>
+            <testResource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <excludes>
+                    <exclude>META-INF/jqassistant-plugin.xml</exclude>
+                </excludes>
+                <filtering>false</filtering>
+            </testResource>
+        </testResources>
         <pluginManagement>
             <plugins>
                 <plugin>
