@@ -117,14 +117,14 @@
         </resources>
         <testResources>
             <testResource>
-                <directory>${project.basedir}/src/main/resources</directory>
+                <directory>${project.basedir}/src/test/resources</directory>
                 <includes>
                     <include>META-INF/jqassistant-plugin.xml</include>
                 </includes>
                 <filtering>true</filtering>
             </testResource>
             <testResource>
-                <directory>${project.basedir}/src/main/resources</directory>
+                <directory>${project.basedir}/src/test/resources</directory>
                 <excludes>
                     <exclude>META-INF/jqassistant-plugin.xml</exclude>
                 </excludes>
